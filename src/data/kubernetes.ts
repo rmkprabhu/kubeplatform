@@ -26,7 +26,7 @@ export const kubernetesData: Category[] = [
     "icon": "🚀",
     "topics": [
       {
-        "name": "Kubernetes Basics",
+        "name": "Kubernetes Basics Test",
         "description": "Learn the core concepts of Kubernetes",
         "questions": [
           {
