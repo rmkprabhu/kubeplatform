@@ -93,6 +93,61 @@ export const kubernetesData: Category[] = [
             "type": "Text",
             "question": "How do you archive and compress files in Linux?",
             "answer": "The tar (tape archive) command is used to create archives of files and directories. Compression utilities like gzip, bzip2, or xz can be used along with tar to create compressed archives."
+          },
+          {
+            "type": "MCQ",
+            "question": "Which command is used to search for files in Linux?",
+            "options": [
+              "find",
+              "grep",
+              "locate",
+              "search"
+            ],
+            "correctAnswer": 0
+          },
+          {
+            "type": "MCQ",
+            "question": "What is the purpose of the 'grep' command in Linux?",
+            "options": [
+              "To search for files",
+              "To search for patterns in text",
+              "To manage file permissions",
+              "To compress files"
+            ],
+            "correctAnswer": 1
+          },
+          {
+            "type": "MCQ",
+            "question": "Which of the following is a Linux package manager?",
+            "options": [
+              "apt",
+              "npm",
+              "pip",
+              "brew"
+            ],
+            "correctAnswer": 0
+          },
+          {
+            "type": "MCQ",
+            "question": "What does the 'chmod' command do in Linux?",
+            "options": [
+              "Changes file ownership",
+              "Changes file permissions",
+              "Compresses files",
+              "Searches for files"
+            ],
+            "correctAnswer": 1
+          },
+          {
+            "type": "MCQ",
+            "question": "Which command is used to display real-time system resource usage in Linux?",
+            "options": [
+              "top",
+              "free",
+              "df",
+              "du"
+            ],
+            "correctAnswer": 0
           }
         ]
       },
